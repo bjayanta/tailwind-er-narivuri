@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Tailwindcss</title>
+    <title>Modal | Tailwindcss</title>
 
     <!-- tailwindcss -->
     <link href="./dist/style.css" rel="stylesheet">
@@ -92,6 +92,21 @@
         <!-- work end -->
     </section>
     <!-- Portfolio end -->
+
+    <!-- Modal -->
+    <div class="w-screen h-screen fixed top-0 left-0 bg-slate-600/40 flex justify-center items-center">
+        <div class="w-2/6 bg-white rounded shadow-lg">
+            <h2 class="px-6 py-4 text-lg font-semibold border-b relative">
+                Modal head
+                <span class="text-2xl absolute top-3 right-4 cursor-pointer hover:text-pink-500">&times;</span>
+            </h2>
+            <div class="px-6 py-4">
+                <h2>Modal body</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deleniti quos quia, suscipit laborum pariatur sequi reprehenderit cupiditate provident, tempore nihil quisquam dignissimos dolorum maiores aliquam? Molestias eaque cupiditate praesentium!</p>
+            </div>
+            <h2 class="px-6 py-4 text-lg font-semibold border-t">Modal footer</h2>
+        </div>
+    </div>
     
 </body>
 </html>
