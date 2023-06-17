@@ -4,109 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modal | Tailwindcss</title>
+    <title>Grid | Tailwindcss</title>
 
     <!-- tailwindcss -->
     <link href="./dist/style.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Portfolio -->
     <section class="container mx-auto">
-        <!-- head area -->
-        <div class="text-center mb-12">
-            <div class="mb-10">
-                <h2 class="text-5xl font-black uppercase text-red-500">My Works</h2>
-                <p class="text-xl uppercase">My Cases</p>
-            </div>
+        
+        <div class="grid grid-cols-4 gap-4">
+            <article class="border p-4">
+                <h2>Title 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum ducimus deleniti nihil. Ullam quae esse corporis hic ducimus voluptas non, vero quibusdam alias! Voluptatum quas nostrum voluptate provident eum.</p>
+            </article>
 
-            <nav class="space-x-12 font-semibold text-teal-800">
-                <a href="#" class="text-teal-600 underline underline-offset-8">All</a>
-                <a href="#" class="hover:text-teal-600 hover:underline underline-offset-8">Web design</a>
-                <a href="#" class="hover:text-teal-600 hover:underline underline-offset-8">Web development</a>
-                <a href="#" class="hover:text-teal-600 hover:underline underline-offset-8">iOS</a>
-                <a href="#" class="hover:text-teal-600 hover:underline underline-offset-8">Android</a>
-                <a href="#" class="hover:text-teal-600 hover:underline underline-offset-8">AWS</a>
-            </nav>
+            <article class="border p-4 col-span-2">
+                <h2>Title 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum ducimus deleniti nihil. Ullam quae esse corporis hic ducimus voluptas non, vero quibusdam alias! Voluptatum quas nostrum voluptate provident eum.</p>
+            </article>
+
+            <article class="border p-4">
+                <h2>Title 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum ducimus deleniti nihil. Ullam quae esse corporis hic ducimus voluptas non, vero quibusdam alias! Voluptatum quas nostrum voluptate provident eum.</p>
+            </article>
+
+            <article class="border p-4">
+                <h2>Title 4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum ducimus deleniti nihil. Ullam quae esse corporis hic ducimus voluptas non, vero quibusdam alias! Voluptatum quas nostrum voluptate provident eum.</p>
+            </article>
+
+            <article class="border p-4">
+                <h2>Title 5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum ducimus deleniti nihil. Ullam quae esse corporis hic ducimus voluptas non, vero quibusdam alias! Voluptatum quas nostrum voluptate provident eum.</p>
+            </article>
+
+            <article class="border p-4">
+                <h2>Title 6</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum ducimus deleniti nihil. Ullam quae esse corporis hic ducimus voluptas non, vero quibusdam alias! Voluptatum quas nostrum voluptate provident eum.</p>
+            </article>
         </div>
-        <!-- head area end -->
 
-        <!-- work -->
-        <div class="grid grid-cols-3 gap-10">
-            <figure class="border p-4 rounded-lg group overflow-hidden">
-                <img src="./images/1.jpg" alt="Image 1" class="rounded-lg mb-5 group-hover:scale-105 transition-all duration-300" />
-                <figcaption>
-                    <h4 class="font-medium uppercase">HTML, CSS, JavaScript</h4>
-                    <h2 class="text-2xl font-bold mb-5">Work Title One</h2>
-                    <p class="text-justify mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatem quaerat quod dolor veritatis accusamus architecto numquam ad blanditiis nobis nihil similique hic sint, labore, aspernatur eligendi commodi ipsa minus.</p>
-
-                    <a href="#" class="font-semibold hover:text-teal-600">See details</a>
-                </figcaption>
-            </figure>
-
-            <figure class="border p-4 rounded-lg group overflow-hidden">
-                <img src="./images/2.jpg" alt="Image 1" class="rounded-lg mb-5 group-hover:scale-105 transition-all duration-300" />
-                <figcaption>
-                    <h4 class="font-medium uppercase">HTML, CSS, JavaScript</h4>
-                    <h2 class="text-2xl font-bold mb-5">Work Title One</h2>
-                    <p class="text-justify mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatem quaerat quod dolor veritatis accusamus architecto numquam ad blanditiis nobis nihil similique hic sint, labore, aspernatur eligendi commodi ipsa minus.</p>
-
-                    <a href="#" class="font-semibold hover:text-teal-600">See details</a>
-                </figcaption>
-            </figure>
-
-            <figure class="border p-4 rounded-lg group overflow-hidden">
-                <img src="./images/3.jpg" alt="Image 1" class="rounded-lg mb-5 group-hover:scale-105 transition-all duration-300" />
-                <figcaption>
-                    <h4 class="font-medium uppercase">HTML, CSS, JavaScript</h4>
-                    <h2 class="text-2xl font-bold mb-5">Work Title One</h2>
-                    <p class="text-justify mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatem quaerat quod dolor veritatis accusamus architecto numquam ad blanditiis nobis nihil similique hic sint, labore, aspernatur eligendi commodi ipsa minus.</p>
-
-                    <a href="#" class="font-semibold hover:text-teal-600">See details</a>
-                </figcaption>
-            </figure>
-
-            <figure class="border p-4 rounded-lg group overflow-hidden">
-                <img src="./images/3.jpg" alt="Image 1" class="rounded-lg mb-5 group-hover:scale-105 transition-all duration-300" />
-                <figcaption>
-                    <h4 class="font-medium uppercase">HTML, CSS, JavaScript</h4>
-                    <h2 class="text-2xl font-bold mb-5">Work Title One</h2>
-                    <p class="text-justify mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatem quaerat quod dolor veritatis accusamus architecto numquam ad blanditiis nobis nihil similique hic sint, labore, aspernatur eligendi commodi ipsa minus.</p>
-
-                    <a href="#" class="font-semibold hover:text-teal-600">See details</a>
-                </figcaption>
-            </figure>
-
-            <figure class="border p-4 rounded-lg group overflow-hidden">
-                <img src="./images/2.jpg" alt="Image 1" class="rounded-lg mb-5 group-hover:scale-105 transition-all duration-300" />
-                <figcaption>
-                    <h4 class="font-medium uppercase">HTML, CSS, JavaScript</h4>
-                    <h2 class="text-2xl font-bold mb-5">Work Title One</h2>
-                    <p class="text-justify mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatem quaerat quod dolor veritatis accusamus architecto numquam ad blanditiis nobis nihil similique hic sint, labore, aspernatur eligendi commodi ipsa minus.</p>
-
-                    <a href="#" class="font-semibold hover:text-teal-600">See details</a>
-                </figcaption>
-            </figure>
-
-        </div>
-        <!-- work end -->
     </section>
-    <!-- Portfolio end -->
-
-    <!-- Modal -->
-    <div class="w-screen h-screen fixed top-0 left-0 bg-slate-600/40 flex justify-center items-center">
-        <div class="w-2/6 bg-white rounded shadow-lg">
-            <h2 class="px-6 py-4 text-lg font-semibold border-b relative">
-                Modal head
-                <span class="text-2xl absolute top-3 right-4 cursor-pointer hover:text-pink-500">&times;</span>
-            </h2>
-            <div class="px-6 py-4">
-                <h2>Modal body</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deleniti quos quia, suscipit laborum pariatur sequi reprehenderit cupiditate provident, tempore nihil quisquam dignissimos dolorum maiores aliquam? Molestias eaque cupiditate praesentium!</p>
-            </div>
-            <h2 class="px-6 py-4 text-lg font-semibold border-t">Modal footer</h2>
-        </div>
-    </div>
     
 </body>
 </html>
